@@ -1,0 +1,104 @@
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.061
+
+
+Table CUSTOMERS created.
+
+Elapsed: 00:00:00.013
+
+
+Table LOANS created.
+
+Elapsed: 00:00:00.013
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.014
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.015
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.001
+
+
+1 row inserted.
+
+Elapsed: 00:00:00.002
+
+
+Commit complete.
+
+Elapsed: 00:00:00.002
+CUSTOMERID NAME      AGE BALANCE ISVIP   
+---------- --------- --- ------- ------- 
+1          Alice     65  15000   FALSE   
+2          Bob       45  8000    FALSE   
+3          Charlie   70  9500    FALSE   
+
+Elapsed: 00:00:00.009
+3 rows selected. 
+
+LOANID CUSTOMERID INTERESTRATE DUEDATE                   
+------ ---------- ------------ ------------------------- 
+101    1          10.5         07/10/2025, 07:01:00 PM   
+102    2          11           08/14/2025, 07:01:00 PM   
+103    3          12           07/05/2025, 07:01:00 PM   
+
+Elapsed: 00:00:00.008
+3 rows selected. 
+
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.012
+LOANID CUSTOMERID INTERESTRATE DUEDATE                   
+------ ---------- ------------ ------------------------- 
+101    1          9.5          07/10/2025, 07:01:00 PM   
+102    2          11           08/14/2025, 07:01:00 PM   
+103    3          11           07/05/2025, 07:01:00 PM   
+
+Elapsed: 00:00:00.001
+3 rows selected. 
+
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.009
+CUSTOMERID NAME      AGE BALANCE ISVIP   
+---------- --------- --- ------- ------- 
+1          Alice     65  15000   TRUE    
+2          Bob       45  8000    FALSE   
+3          Charlie   70  9500    FALSE   
+
+Elapsed: 00:00:00.001
+3 rows selected. 
+
+
+Reminder: Dear Alice, your loan is due on 10-JUL-2025
+Reminder: Dear Charlie, your loan is due on 05-JUL-2025
+
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:00.014
